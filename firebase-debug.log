@@ -1,29 +1,29 @@
-[debug] [2024-10-19T09:48:09.503Z] ----------------------------------------------------------------------
-[debug] [2024-10-19T09:48:09.505Z] Command:       /usr/local/share/nvm/versions/node/v20.17.0/bin/node /home/codespace/nvm/current/bin/firebase login
-[debug] [2024-10-19T09:48:09.505Z] CLI Version:   13.22.1
-[debug] [2024-10-19T09:48:09.506Z] Platform:      linux
-[debug] [2024-10-19T09:48:09.506Z] Node Version:  v20.17.0
-[debug] [2024-10-19T09:48:09.506Z] Time:          Sat Oct 19 2024 09:48:09 GMT+0000 (Coordinated Universal Time)
-[debug] [2024-10-19T09:48:09.506Z] Env Overrides: GITHUB_API_URL, GITHUB_API_URL
-[debug] [2024-10-19T09:48:09.506Z] ----------------------------------------------------------------------
+[debug] [2024-10-19T10:24:41.946Z] ----------------------------------------------------------------------
+[debug] [2024-10-19T10:24:41.948Z] Command:       /usr/local/share/nvm/versions/node/v20.17.0/bin/node /home/codespace/nvm/current/bin/firebase login --no-localhost
+[debug] [2024-10-19T10:24:41.948Z] CLI Version:   13.22.1
+[debug] [2024-10-19T10:24:41.949Z] Platform:      linux
+[debug] [2024-10-19T10:24:41.949Z] Node Version:  v20.17.0
+[debug] [2024-10-19T10:24:41.949Z] Time:          Sat Oct 19 2024 10:24:41 GMT+0000 (Coordinated Universal Time)
+[debug] [2024-10-19T10:24:41.949Z] Env Overrides: GITHUB_API_URL, GITHUB_API_URL
+[debug] [2024-10-19T10:24:41.949Z] ----------------------------------------------------------------------
 [debug] 
 [info] i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
  
 [info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
-[debug] [2024-10-19T09:48:21.380Z] >>> [apiv2][query] POST https://auth.firebase.tools/attest [none]
-[debug] [2024-10-19T09:48:21.381Z] >>> [apiv2][body] POST https://auth.firebase.tools/attest {"session_id":"de41831e-3507-46bf-af4a-0b5985b75679"}
-[debug] [2024-10-19T09:48:21.753Z] <<< [apiv2][status] POST https://auth.firebase.tools/attest 200
-[debug] [2024-10-19T09:48:21.753Z] <<< [apiv2][body] POST https://auth.firebase.tools/attest {"token":"yrDivelnSl2ep48mXVlDB2f0aMD9qC-hl33ZK3ZXiJ8"}
+[debug] [2024-10-19T10:24:57.399Z] >>> [apiv2][query] POST https://auth.firebase.tools/attest [none]
+[debug] [2024-10-19T10:24:57.399Z] >>> [apiv2][body] POST https://auth.firebase.tools/attest {"session_id":"4c8ceba6-f7d3-42ab-aad8-ea495f2f69a2"}
+[debug] [2024-10-19T10:24:57.805Z] <<< [apiv2][status] POST https://auth.firebase.tools/attest 200
+[debug] [2024-10-19T10:24:57.805Z] <<< [apiv2][body] POST https://auth.firebase.tools/attest {"token":"KRygacTCE9gN1dfzdHtWnCcUSB5N6K6TPpKiOo6wL3Q"}
 [info] 
 [info] To sign in to the Firebase CLI:
 [info] 
 [info] 1. Take note of your session ID:
 [info] 
-[info]    DE418
+[info]    4C8CE
 [info] 
 [info] 2. Visit the URL below on any device and follow the instructions to get your code:
 [info] 
-[info]    https://auth.firebase.tools/login?code_challenge=DDsfnraZ-4bKbM0Hq41JknE20z3D5TL5YJnAhYmVvlg&session=de41831e-3507-46bf-af4a-0b5985b75679&attest=yrDivelnSl2ep48mXVlDB2f0aMD9qC-hl33ZK3ZXiJ8
+[info]    https://auth.firebase.tools/login?code_challenge=EfPIlNBRdqvmzTxf8oIKFsF56nd0Kchx1BU_pSbQB6Q&session=4c8ceba6-f7d3-42ab-aad8-ea495f2f69a2&attest=KRygacTCE9gN1dfzdHtWnCcUSB5N6K6TPpKiOo6wL3Q
 [info] 
 [info] 3. Paste or enter the authorization code below once you have it:
 [info] 
