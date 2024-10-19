@@ -4,12 +4,13 @@ import { getFirestore } from "firebase/firestore";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-    apiKey: "YOUR_API_KEY",
-    authDomain: "YOUR_AUTH_DOMAIN",
-    projectId: "YOUR_PROJECT_ID",
-    storageBucket: "YOUR_STORAGE_BUCKET",
-    messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-    appId: "YOUR_APP_ID"
+    apiKey: "AIzaSyAode4iIJ096VRDf7o9WtRgYX5ceGkZd0c",
+    authDomain: "hcratch-wiki-project-0001.firebaseapp.com",
+    projectId: "hcratch-wiki-project-0001",
+    storageBucket: "hcratch-wiki-project-0001.appspot.com",
+    messagingSenderId: "985459224012",
+    appId: "1:985459224012:web:85fa47083aa716e8a50169",
+    measurementId: "G-CTB0XLE55W"
 };
 
 const app = initializeApp(firebaseConfig);
